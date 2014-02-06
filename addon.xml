@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="insteon.addon" name="INSTEON Hub XBMC Event" version="Alpha 0.1.5" provider-name="Brad Arthur">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="1.1.0"/>
+    </requires>
+  
+    <extension point="xbmc.service" library="default.py" start="startup" />
+  
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language>Eng</language>
+        <summary lang="en">XBMC Event INSTEON Hub Scene Control</summary>
+        <description lang="en">Trigger an INSTEON Scene based on XBMC events using the INSTEON Hub.
+
+IMPORTANT: Disable/Enable after changing settings - or restart XBMC.</description>
+
+        <disclaimer lang="en">Thanks to... Compiling list!</disclaimer>
+    </extension>
+</addon>
